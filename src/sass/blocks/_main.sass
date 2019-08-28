@@ -1,7 +1,7 @@
 .main
  padding-top: 30px
  padding-bottom: 120px
- background-image: url('/src/img/bg.jpg')
+ background-image: url('/src/img/bg-1.jpg')
  background-position: 0 0
  background-repeat: repeat
 .menu
@@ -45,3 +45,43 @@
  margin-bottom: 55px
 .main-wrap__mixer
  width: 29%
+
+@media screen and (max-width: 1200px)
+ .menu__list
+  font-size: 12px
+
+@media screen and (max-width: 960px)
+ .main
+  padding-top: 50px
+  padding-bottom: 65px
+ .menu
+  display: none
+ .main__title
+  font-size: 24px 
+  margin-bottom: 20px
+ .main__subtitle
+  font-size: 14px 
+  font-weight: 500
+  margin-bottom: 20px
+
+@media screen and (max-width: 520px)
+ .main
+  padding-top: 30px
+  padding-bottom: 60px
+ .main-wrap__pump
+  width: 55%
+ .main-wrap__text
+  width: 45%
+ .main-wrap__mixer
+  display: none
+ 
+@media screen and (max-width: 375px)
+ .main-wrap
+  flex-direction: column
+ .main-wrap__pump
+  width: 50%
+  margin: auto
+ .main-wrap__text
+  width: 100%
+
+  

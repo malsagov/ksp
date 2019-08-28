@@ -3,26 +3,25 @@
  padding: 0
  box-sizing: border-box 
  text-decoration: none
+ list-style: none 
 body 
  font-family: 'Corsa Grotesk', sans-serif
 img 
  max-width: 100%
+.section
+ background-image: url('/src/img/bg-1.jpg')
+ background-position: 0 0
+ background-repeat: repeat
+.title
+ font-size: 36px 
+ font-family: 'Gotham Pro',sans-serif
+ font-weight: 900
+ text-align: center
+ color: $text-color
+ margin-bottom: 90px
 .container
  width: 1170px
  margin: auto 
-
-@media screen and (max-width: 1200px)
- .container
-  width: 94%
-
-@media screen and (max-width: 960px)
- .button 
-  font-size: 12px!important
-
-@media screen and (min-width: 765px)
- .menu__btn
-  display: none
-
 .button
  border: none  
  background-color: $main-color
@@ -43,6 +42,28 @@ img
   background-color: lighten($main-color, 15%)
  &:focus
   outline: none
+
+@media screen and (max-width: 1200px)
+ .container
+  width: 94%
+
+@media screen and (max-width: 960px)
+ .button 
+  font-size: 12px!important
+ .title
+  font-size: 24px
+  margin-bottom: 40px
+
+@media screen and (min-width: 961px)
+ .menu__btn
+  display: none
+
+@media screen and (max-width: 520px)
+ .title
+  margin-bottom: 30px
+
+
+
   
   
  

@@ -30,12 +30,40 @@
                     </div>
                     <button class="button header-contacts__button">Заказать звонок</button>
                 </div>
-                <div class="menu__btn">
+                <div class="menu__btn" id="open">
                     <span class="menu__btn-burger"></span>
                 </div>
             </div>
         </div>
     </header>
+
+    <nav class="mobile-menu" style="display: none">
+        <div class="container">
+            <ul class="mobile-menu__list">
+                <a href="#" class="mobile-menu__item">
+                    <li>Бетон</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Всё для строительства</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Аренда спецтехники</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Инертные материалы</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Почему мы</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Наши клиенты</li>
+                </a>
+                <a href="#" class="mobile-menu__item">
+                    <li>Контакты</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
 
     <main>
         <section class="main">
@@ -46,19 +74,19 @@
                             <li>Бетон</li>
                         </a>
                         <a href="#" class="menu__item">
+                            <li>Всё для строительства</li>
+                        </a>
+                        <a href="#" class="menu__item">
                             <li>Аренда спецтехники</li>
                         </a>
                         <a href="#" class="menu__item">
                             <li>Инертные материалы</li>
                         </a>
                         <a href="#" class="menu__item">
-                            <li>Основные направления</li>
-                        </a>
-                        <a href="#" class="menu__item">
                             <li>Почему мы</li>
                         </a>
                         <a href="#" class="menu__item">
-                            <li>Почему мы</li>
+                            <li>Наши клиенты</li>
                         </a>
                         <a href="#" class="menu__item">
                             <li>Контакты</li>
@@ -77,6 +105,118 @@
                     </div>
                     <div class="main-wrap__mixer">
                         <img src="/src/img/main/mixer.png" alt="Автобетонамешалка">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="concrete section">
+            <div class="container">
+                <div class="concrete__block">
+                    <h2 class="concrete__title title">Бетон высшего качества</h2>
+                    <div class="concrete__wrap">
+                        <div class="concrete__img">
+                            <img src="/src/img/concrete/img.png" alt="Бетон">
+                            <a download href="/src/file/price.png" class="button concrete__button">Посмотреть прайс</a>
+                        </div>
+                        
+                        <div class="concrete__text-wrap">
+                            <span class="concrete__text">М - параметр, указывающий на то, какую нагрузку в кг/см2 способен выдержать определенный состав.</span>
+                            <span class="concrete__text">М-50, М-100 используют при заполнении пустот в конструкциях<span class="hidden">, которые не испытывают нагрузок.</span></span>
+                            <span class="concrete__text">М-150 можно использовать в черновых работахи при заливке фундамента<span class="hidden">для маленькиходноэтажных построек.</span></span>
+                            <span class="concrete__text">М-200, М-250 используется для возведения подпорных<span class="hidden"> стен, при изготовлении лестниц, площадок, дорожек,отмосток и бордюров.</span></span>
+                            <span class="concrete__text">М-300 пользуется большим спросом при возведении монолитных фундаментов.</span>
+                            <span class="concrete__text">М-400 быстро схватывается, поэтому его чаще применяют при строительстве крупных комплексов.</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-block">
+                        <h3 class="price__title">Прайс</h3>
+                        <div class="price__wrap">
+                            <ul class="price__list-title">
+                                <li class="price__item-title">Марка</li>
+                                <li class="price__item-title">Цена наличными</li>
+                                <li class="price__item-title">Цена с НДС Б/Н</li>
+                                <li class="price__item-title">Цена с НДС за м2</li>
+                            </ul>
+                            <h4 class="price__table-title">Бетон</h4>
+                            <ul class="price__list">
+                                <li class="price__item">м-100</li>
+                                <li class="price__item">2300</li>
+                                <li class="price__item">2400</li>
+                                <li class="price__item">2900</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-150</li>
+                                <li class="price__item">2400</li>
+                                <li class="price__item">2600</li>
+                                <li class="price__item">3100</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-200</li>
+                                <li class="price__item">2650</li>
+                                <li class="price__item">2950</li>
+                                <li class="price__item">3300</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-250</li>
+                                <li class="price__item">2900</li>
+                                <li class="price__item">3100</li>
+                                <li class="price__item">3600</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-300</li>
+                                <li class="price__item">3100</li>
+                                <li class="price__item">3300</li>
+                                <li class="price__item">4000</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-350</li>
+                                <li class="price__item">3600</li>
+                                <li class="price__item">3800</li>
+                                <li class="price__item">4300</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">м-400</li>
+                                <li class="price__item">3900</li>
+                                <li class="price__item">4200</li>
+                                <li class="price__item">4700</li>
+                            </ul>
+                            <h4 class="price__table-title">Раствор</h4>
+                            <ul class="price__list">
+                                <li class="price__item">р-75</li>
+                                <li class="price__item">2800</li>
+                                <li class="price__item">3100</li>
+                                <li class="price__item">3500</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">р-100</li>
+                                <li class="price__item">3100</li>
+                                <li class="price__item">3200</li>
+                                <li class="price__item">3800</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">р-150</li>
+                                <li class="price__item">3100</li>
+                                <li class="price__item">3500</li>
+                                <li class="price__item">4100</li>
+                            </ul>
+                            <ul class="price__list">
+                                <li class="price__item">р-200</li>
+                                <li class="price__item">3500</li>
+                                <li class="price__item">3700</li>
+                                <li class="price__item">4300</li>
+                            </ul>
+                            <h4 class="price__table-title">Дополнительные услуги</h4>
+                            <p class="price__table-text">Противоморозная добавка — каждые -5С +200 руб.</p>
+                            <p class="price__table-text">Доставка автобетоносмесителями — 3 м3, 5 м3, 7 м3, 9 м3</p>
+                            <p class="price__table-text">Время на разгрузку машины от 30 до 50 минут</p>
+                            <p class="price__table-text">Простой автобетоносмесителя 22 руб./мин.</p>
+                            <div class="price__massage">
+                                    <p class="price__table-comment">Цены могут быть снижены в зависимости от  поставляемых объемов продукции.</p>
+                                    <a download href="/src/file/price.png" class="button price__button">Скачать прайс</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

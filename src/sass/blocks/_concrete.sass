@@ -1,0 +1,124 @@
+.concrete
+ padding-bottom: 100px
+.concrete__wrap
+ display: flex
+ align-items: center
+ justify-content: space-around
+ margin-bottom: 80px
+.concrete__img
+ width: 50% 
+.concrete__text-wrap
+ width: 44%
+ display: flex
+ flex-direction: column
+.concrete__text
+ margin-bottom: 20px
+ &:first-child
+  margin-bottom: 60px
+ &:last-child
+  margin-bottom: 0
+.price__title
+ font-size: 30px 
+ text-align: center
+ font-weight: 500
+ margin-bottom: 35px
+.price__wrap
+ width: 80%
+ margin: auto
+.price__list-title
+ display: flex
+ justify-content: space-around
+ padding-top: 15px 
+ padding-bottom: 20px
+ background-color: #505151
+ color: #fff
+ opacity: 0.75
+.price__item-title
+ position: relative
+ &:after
+  content: ''
+  width: 100%
+  height: 2px
+  background-color: $main-color
+  position: absolute
+  bottom: -5px
+  left: 0
+.price__table-title
+ display: block
+ text-align: center
+ text-transform: uppercase
+ padding-top: 10px
+ padding-bottom: 10px
+ font-weight: 500
+ border-bottom: 2px solid rgba(49, 49, 49,.51)
+.price__list
+ display: flex
+ justify-content: space-around
+ align-items: center
+ border-bottom: 2px solid rgba(49, 49, 49,.51)
+ padding-top: 10px 
+ padding-bottom: 10px
+ text-transform: uppercase
+.price__table-text
+ text-align: center
+ font-weight: 500 
+ display: block
+ padding-top: 10px 
+ padding-bottom: 10px 
+ border-bottom: 2px solid rgba(49, 49, 49,.51)
+.price__massage
+ margin-top: 30px 
+ display: flex
+ justify-content: space-between
+.price__table-comment
+ width: 70%
+ color: #232323
+ opacity: .5
+
+@media screen and (max-width: 1200px)
+ .concrete__img
+  text-align: center
+  width: 46%
+  min-width: 227px
+ .concrete__button
+  display: inline-block
+  margin-top: 40px
+ .concrete__text-wrap
+  width: 44%
+ .concrete__text
+  font-size: 13px
+  margin-bottom: 18px
+  &:first-child
+   margin-bottom: 18px
+
+@media screen and (min-width: 765px)
+ .concrete__button
+  display: none
+  
+@media screen and (max-width: 764px)
+ .concrete__text
+  font-size: 12px
+ .price-block
+  display: none
+
+@media screen and (max-width: 520px)
+ .hidden
+  display: none
+ .concrete__wrap
+  flex-direction: column
+ .concrete__img
+  text-align: center
+  width: 70%
+  min-width: 227px
+  margin-bottom: 30px
+ .concrete__button
+  display: inline-block
+  margin-top: 40px
+ .concrete__text-wrap
+  margin: auto
+  width: 80%
+ .concrete__text
+  font-size: 13px
+  margin-bottom: 18px
+ 
+
