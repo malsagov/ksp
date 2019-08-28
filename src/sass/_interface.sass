@@ -1,0 +1,50 @@
+*
+ margin: 0
+ padding: 0
+ box-sizing: border-box 
+ text-decoration: none
+body 
+ font-family: 'Corsa Grotesk', sans-serif
+img 
+ max-width: 100%
+.container
+ width: 1170px
+ margin: auto 
+
+@media screen and (max-width: 1200px)
+ .container
+  width: 94%
+
+@media screen and (max-width: 960px)
+ .button 
+  font-size: 12px!important
+
+@media screen and (min-width: 765px)
+ .menu__btn
+  display: none
+
+.button
+ border: none  
+ background-color: $main-color
+ font-family: inherit
+ font-size: 16px
+ text-transform: uppercase
+ color: #fff
+ padding-top: 11px 
+ padding-bottom: 12px 
+ padding-left: 20px 
+ padding-right: 20px
+ border-radius: 10px 
+ box-shadow: 0px 0px 7px 0px rgba(255, 0, 0, 0.5)
+ cursor: pointer
+ &:hover
+  background-color: lighten($main-color, 7%)
+ &:active
+  background-color: lighten($main-color, 15%)
+ &:focus
+  outline: none
+  
+  
+ 
+  
+

@@ -1,0 +1,123 @@
+.header
+ padding-top: 20px 
+ padding-bottom: 20px 
+.header__block
+ display: flex
+ justify-content: space-between 
+ align-items: center
+.header__contacts-wrap
+ display: flex
+ align-items: center
+.header-contacts
+ display: flex
+ justify-content: space-between
+ align-items: flex-start
+ width: 360px
+.header-contacts__mail-wrap
+ display: flex
+ align-items: center
+ margin-right: 30px
+.header-contacts__mail
+ margin-left: 5px 
+ color: $text-color
+.header-contacts__tel-wrap
+ width: 187px
+.header-contacts__tel-block
+ display: flex
+ align-items: center
+ margin-bottom: 10px
+.header-contacts__tel-one
+ color: $text-color
+ margin-left: 5px
+.header-contacts__tel-two
+ padding-left: 35px
+ color: $text-color
+.header-contacts__button
+ margin-left: 70px
+
+@media screen and (max-width: 1200px)
+ .header-contacts
+  display: flex 
+  flex-direction: column 
+  width: auto 
+ .header-contacts__mail-wrap
+  margin-bottom: 5px  
+  order: 1
+ .header-contacts__tel-wrap
+  width: auto
+ .header-contacts__tel-block
+  align-items: stretch
+  margin-bottom: 5px
+ .header-contacts__tel-icon
+  position: relative
+  top: 10px
+
+@media screen and (max-width: 960px)
+ .header__logo
+  width: 200px
+ .header-contacts
+  align-items: center
+ .header-contacts__mail
+  font-size: 12px 
+  padding-right: 30px
+ .header-contacts__tel-block
+  position: relative
+ .header-contacts__tel-icon
+  position: absolute
+  top: 7px
+  left: -30px
+ .header-contacts__tel-one
+  font-size: 12px 
+ .header-contacts__tel-two
+  padding-left: 5px
+  font-size: 12px 
+ .header-contacts__button
+  margin-left: 50px
+  
+@media screen and (max-width: 764px)
+ .header__logo
+  width: 30%
+  min-width: 180px
+ .header__contacts-wrap
+  margin-left: auto
+ .header-contacts__button
+  display: none
+ .menu__btn
+  width: 35px 
+  height: 30px 
+  cursor: pointer
+ .menu__btn-burger
+  position: relative
+  top: 50% 
+  display: block
+  width: 35px 
+  height: 2px 
+  background-color: #000
+  &:before
+   content: ''
+   position: absolute 
+   top: -12px 
+   left: 0
+   width: 35px 
+   height: 2px 
+   background-color: #000
+  &:after
+   content: ''
+   position: absolute 
+   top: 12px 
+   left: 0
+   width: 35px 
+   height: 2px 
+   background-color: #000
+
+
+ 
+ 
+  
+ 
+ 
+  
+
+
+
+
