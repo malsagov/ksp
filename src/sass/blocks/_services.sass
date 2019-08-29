@@ -1,0 +1,22 @@
+.services__list
+ display: flex
+ flex-wrap: wrap 
+ justify-content: space-between
+ text-align: center
+.services__item
+ width: 30%
+ margin-bottom: 30px
+ &:nth-child(7)
+  margin-bottom: 0
+ &:nth-child(8)
+  margin-bottom: 0
+ &:nth-child(9)
+  margin-bottom: 0
+@media screen and (max-width: 764px)
+ .services__item
+  width: 49%
+  margin-bottom: 25px 
+@media screen and (max-width: 520px)
+ .services__item
+  font-size: 12px
+  font-weight: 500
