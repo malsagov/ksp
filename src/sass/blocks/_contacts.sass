@@ -1,0 +1,94 @@
+.contacts
+ position: relative
+.contacts__block
+ position: absolute
+ top: 20%
+ left: 10%
+ width: 35%
+ background-color: #fff
+ padding-top: 30px
+ padding-left: 30px 
+ padding-bottom: 30px
+ padding-right: 20px  
+.contacts__tel-wrap
+ display: flex 
+ align-items: center
+ flex-wrap: wrap
+ margin-bottom: 10px
+.contacts__tel
+ margin-left: 20px
+ color: $text-color 
+.contacts__addres-wrap
+ display: flex
+ align-items: center
+ margin-bottom: 10px 
+.contacts__addres
+ margin-left: 20px 
+.contacts__mail-wrap
+ display: flex
+ align-items: center
+ margin-bottom: 10px 
+.contacts__mail
+ margin-left: 20px 
+ color: $text-color 
+.contacts__inst-wrap
+ display: flex
+ align-items: center
+.contacts__inst-link
+ margin-left: 20px 
+ color: $text-color
+@media screen and (max-width: 1200px)
+ .contacts__tel
+  font-size: 12px 
+  margin-left: 10px
+  font-weight: 500
+ .contacts__addres
+  font-size: 12px 
+  margin-left: 10px 
+  font-weight: 500
+ .contacts__mail
+  font-size: 12px 
+  margin-left: 10px 
+  font-weight: 500
+ .contacts__inst-link
+  margin-left: 10px 
+  font-size: 12px 
+  font-weight: 500
+@media screen and (max-width: 960px)
+ .contacts__tel
+  &:last-child
+   padding-left: 30px
+@media screen and (max-width: 764px)
+ .contacts__block
+  width: 55%
+@media screen and (min-width: 521px)
+ .title
+  display: none
+@media screen and (max-width: 520px)
+ .contacts
+  padding-top: 0
+  padding-bottom: 30px 
+  background-image: url('/src/img/bg-1.jpg')
+  background-position: 0 0
+  background-repeat: repeat 
+ .contacts__block
+  position: relative
+  left: auto 
+  top: auto 
+  background-color: transparent
+  padding-top: 0
+  padding-left: 0
+  padding-right: 
+ .contacts__tel
+  &:last-child
+   padding-left: 0
+ .map
+  display: none
+ .contacts__block
+  width: 80%
+@media screen and (max-width: 375px)
+ .contacts__tel
+  &:last-child
+   padding-left: 30px
+
+

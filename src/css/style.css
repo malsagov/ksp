@@ -1176,4 +1176,262 @@ img {
     top: 27%;
   }
 }
+
+.clients {
+  padding-bottom: 100px;
+}
+
+.clients__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.clients__logo {
+  width: 17%;
+}
+
+@media screen and (min-width: 960px) {
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 520px) {
+  padding-bottom: 30px;
+}
+
+.contacts {
+  position: relative;
+}
+
+.contacts__block {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 35%;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.contacts__tel-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.contacts__tel {
+  margin-left: 20px;
+  color: #1c1c1c;
+}
+
+.contacts__addres-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts__addres {
+  margin-left: 20px;
+}
+
+.contacts__mail-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacts__mail {
+  margin-left: 20px;
+  color: #1c1c1c;
+}
+
+.contacts__inst-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__inst-link {
+  margin-left: 20px;
+  color: #1c1c1c;
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts__tel {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .contacts__addres {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .contacts__mail {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .contacts__inst-link {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contacts__tel:last-child {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .contacts__block {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 521px) {
+  .title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contacts {
+    padding-top: 0;
+    padding-bottom: 30px;
+    background-image: url("/src/img/bg-1.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+  }
+  .contacts__block {
+    position: relative;
+    left: auto;
+    top: auto;
+    background-color: transparent;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .contacts__tel:last-child {
+    padding-left: 0;
+  }
+  .map {
+    display: none;
+  }
+  .contacts__block {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contacts__tel:last-child {
+    padding-left: 30px;
+  }
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__list {
+  margin-right: 7%;
+}
+
+.footer-list {
+  margin-right: 13%;
+}
+
+.footer__item {
+  color: #1c1c1c;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer-item {
+  margin-bottom: 62px;
+}
+
+.promo {
+  opacity: .73;
+}
+
+.promo-two {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__list {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer__list {
+    font-size: 12px;
+    margin-right: 3%;
+  }
+  .footer-item {
+    margin-bottom: 57px;
+  }
+  .footer__tel {
+    padding-left: 0 !important;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  .footer__contacts {
+    display: none;
+  }
+  .footer__list {
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .footer__block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__list {
+    margin-right: 0;
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
