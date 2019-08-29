@@ -1,6 +1,7 @@
 .material__wrap
  display: flex
  justify-content: space-around
+ margin-bottom: 75px
 .material__text-wrap
  width: 46%
 .material__text-title
@@ -30,6 +31,33 @@
  font-weight: 500
  margin-bottom: 50px
 .material__item
- width: 28%
+ width: 33%
 .material__img
- width: 40%
+ width: 46%
+.material__info
+ margin-bottom: 50px 
+ font-weight: 500 
+@media screen and (min-width: 961px)
+ .material__img-title
+  display: none
+ .material__button-wrap
+  display: none
+@media screen and (max-width: 960px)
+ .material__block
+  display: flex
+ .material__wrap
+  margin-bottom: 20px 
+ .material__text-wrap
+  display: none
+ .material__img
+  text-align: center
+  width: auto
+ .material__img-title
+  font-weight: 500
+ .material__button-wrap
+  text-align: center
+  padding-bottom: 20px 
+@media screen and (max-width: 764px)
+ .material__img-title
+  font-size: 14px
+ 

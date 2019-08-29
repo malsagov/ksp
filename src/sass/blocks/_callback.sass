@@ -1,0 +1,49 @@
+.callback 
+ padding-bottom: 30px 
+ text-align: center
+.callback__title
+ font-size: 30px 
+ font-weight: 500 
+ margin-bottom: 30px 
+.callback__text
+ width: 50%
+ margin: auto
+ margin-bottom: 65px 
+.callback__form
+ display: flex
+ justify-content: space-between
+ align-items: center
+ width: 70%
+ margin: auto
+.callback__input
+ border: 1px solid #313131
+ border-radius: 10px 
+ padding-top: 24px 
+ padding-bottom: 24px 
+ padding-left: 15px 
+ flex-basis: 30% 
+.callback__button   
+ padding-top: 22px 
+ padding-bottom: 22px 
+ font-weight: 500
+@media screen and (max-width: 1200px)
+ .callback__form
+  width: 90%
+ .callback__input
+  flex-basis: 30%
+@media screen and (max-width: 764px)
+ .callback__form
+  flex-wrap: wrap
+  justify-content: space-around
+  width: 80%
+ .callback__input
+  flex-basis: 40%
+  margin-bottom: 20px
+ .callback__text 
+  width: 70%
+  margin-bottom: 30px 
+ .callback__button
+  margin: auto
+@media screen and (max-width: 520px)
+ .callback__input
+  flex-basis: 60%

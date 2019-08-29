@@ -1,0 +1,83 @@
+.features__wrap
+ display: flex
+ flex-wrap: wrap
+ justify-content: space-around
+.features__item
+ position: relative
+ width: 40% 
+ background-color: rgba(49, 49, 49,.43)
+ padding-top: 30px 
+ padding-bottom: 30px 
+ padding-left: 40px 
+ padding-right: 10px
+ outline: 2px solid $main-color
+ margin-bottom: 55px 
+ outline-offset: 12px
+.features__title
+ font-size: 20px 
+ font-weight: 500 
+ color: #fff 
+ margin-bottom: 20px
+.features__text
+ color: #fff
+.features__num1, .features__num2, .features__num3, .features__num4
+ position: absolute
+ top: 16%
+ z-index: 3
+.features__num1
+ left: -45px
+.features__num2
+ left: -55px
+.features__num3
+ left: -60px
+.features__num4
+ left: -70px
+.grey
+ position: absolute 
+ left: -16px
+ top: 8%
+ width: 10px
+ height: 85%
+ z-index: 1
+.grey img 
+ height: 100%   
+@media screen and (max-width: 960px)
+ .features__title
+  font-size: 18px
+ .features__num1
+  width: 40px
+  left: -30px
+  top: 32%
+ .features__num2
+  width: 55px 
+  left: -25px 
+  top: 32%
+ .features__num3
+  width: 57px   
+  left: -30px
+  top: 32%
+ .features__num4
+  width: 62px 
+  left: -30px 
+  top: 32%
+@media screen and (max-width: 764px)
+ .fetures__title
+  font-size: 16px
+  margin-bottom: 14px 
+ .features__text
+  font-size: 12px 
+@media screen and (max-width: 520px)
+ .features__wrap
+  flex-direction: column 
+  align-items: center 
+  justify-content: center
+ .features__item
+  width: 70%
+ .features__num1
+  width: 40px
+  left: -30px
+  top: 27%
+  
+
+ 
+
