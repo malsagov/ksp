@@ -1318,7 +1318,7 @@ img {
 }
 
 @media screen and (min-width: 521px) {
-  .title {
+  .contacts__title {
     display: none;
   }
 }
