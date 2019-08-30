@@ -26,4 +26,12 @@ $(document).ready(function(){
             },
         ]    
     });
+
+    $('.open').on('click', function(){
+      $('.modal').fadeIn(300)
+    });
+
+    $('.close').on('click', function(){
+      $('.modal').fadeOut(300)
+    });
 });

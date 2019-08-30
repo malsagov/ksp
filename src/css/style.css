@@ -25,8 +25,7 @@ img {
 
 .title {
   font-size: 36px;
-  font-family: 'Gotham Pro',sans-serif;
-  font-weight: 900;
+  font-family: 'Gotham Pro Black',sans-serif;
   text-align: center;
   color: #1c1c1c;
   margin-bottom: 90px;
@@ -98,6 +97,21 @@ img {
   .title {
     margin-bottom: 30px;
   }
+}
+
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url("../fonts/GothamPro/GothamPro-Black.eot");
+  src: url("../fonts/GothamPro/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro/GothamPro-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Corsa Grotesk';
+  src: local("Corsa Grotesk Regular"), local("Corsa-Grotesk-Regular"), url("../fonts/CorsaGrotesk/CorsaGrotesk-Regular.woff2") format("woff2"), url("../fonts/CorsaGrotesk/CorsaGrotesk-Regular.woff") format("woff"), url("../fonts/CorsaGrotesk/CorsaGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 .header {
@@ -442,8 +456,7 @@ img {
 
 .main__title {
   font-size: 48px;
-  font-family: 'Gotham Pro';
-  font-weight: 900;
+  font-family: 'Gotham Pro Black';
   color: #1c1c1c;
   margin-bottom: 40px;
 }
@@ -477,7 +490,6 @@ img {
   }
   .main__subtitle {
     font-size: 14px;
-    font-weight: 500;
     margin-bottom: 20px;
   }
 }
@@ -560,7 +572,6 @@ img {
 .price__title {
   font-size: 30px;
   text-align: center;
-  font-weight: 500;
   margin-bottom: 35px;
 }
 
@@ -602,7 +613,6 @@ img {
   text-transform: uppercase;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-weight: 500;
   border-bottom: 2px solid rgba(49, 49, 49, 0.51);
 }
 
@@ -623,7 +633,6 @@ img {
 
 .price__table-text {
   text-align: center;
-  font-weight: 500;
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -788,7 +797,6 @@ img {
 @media screen and (max-width: 520px) {
   .services__item {
     font-size: 12px;
-    font-weight: 500;
   }
 }
 
@@ -948,9 +956,6 @@ img {
     text-align: center;
     width: auto;
   }
-  .material__img-title {
-    font-weight: 500;
-  }
   .material__button-wrap {
     text-align: center;
     padding-bottom: 20px;
@@ -970,7 +975,6 @@ img {
 
 .callback__title {
   font-size: 30px;
-  font-weight: 500;
   margin-bottom: 30px;
 }
 
@@ -1007,7 +1011,6 @@ img {
 .callback__button {
   padding-top: 22px;
   padding-bottom: 22px;
-  font-weight: 500;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1074,7 +1077,6 @@ img {
 
 .features__title {
   font-size: 20px;
-  font-weight: 500;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -1286,22 +1288,18 @@ img {
   .contacts__tel {
     font-size: 12px;
     margin-left: 10px;
-    font-weight: 500;
   }
   .contacts__addres {
     font-size: 12px;
     margin-left: 10px;
-    font-weight: 500;
   }
   .contacts__mail {
     font-size: 12px;
     margin-left: 10px;
-    font-weight: 500;
   }
   .contacts__inst-link {
     margin-left: 10px;
     font-size: 12px;
-    font-weight: 500;
   }
 }
 
@@ -1377,7 +1375,6 @@ img {
 
 .footer__item {
   color: #1c1c1c;
-  font-weight: 500;
   margin-bottom: 20px;
   display: block;
 }
@@ -1388,10 +1385,6 @@ img {
 
 .promo {
   opacity: .73;
-}
-
-.promo-two {
-  font-weight: 400;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1445,10 +1438,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: none;
 }
 
 .modal-dialog {
   margin: auto;
+  margin-top: 50px;
   max-width: 650px;
   width: 90%;
   min-width: 200px;
@@ -1472,7 +1467,6 @@ img {
   border: none;
   background-color: transparent;
   font-size: 40px;
-  font-weight: 500;
   cursor: pointer;
 }
 
