@@ -7,6 +7,10 @@
     <title>Комплексное снабжение предприятий</title>
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Yandex.Metrika counter --> 
+    <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(55168936, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/55168936" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
     <header class="header">
@@ -21,6 +25,9 @@
                             <img src="img/icon-mail.png" alt="Иконка почты" class="header-contacts__mail-icon">
                             <a href="mailto:dir@ksp024.ru" class="header-contacts__mail">dir@ksp024.ru</a>
                         </div>
+                        <a href="tel:+73912145929" class="header-tel">
+                            <img src="img/icon-tel.png" alt="">
+                        </a>
                         <div class="header-contacts__tel-wrap">
                             <div class="header-contacts__tel-block">
                                 <img src="img/icon-tel.png" class="header-contacts__tel-icon" alt="Иконка телефона">
@@ -44,6 +51,9 @@
                 <a href="#concrete" class="mobile-menu__item">
                     <li>Бетон</li>
                 </a>
+                <a href="#price" class="mobile-menu__item">
+                    <li>Цены</li>
+                </a>
                 <a href="#build" class="mobile-menu__item">
                     <li>Всё для строительства</li>
                 </a>
@@ -52,9 +62,6 @@
                 </a>
                 <a href="#material" class="mobile-menu__item">
                     <li>Инертные материалы</li>
-                </a>
-                <a href="#features" class="mobile-menu__item">
-                    <li>Почему мы</li>
                 </a>
                 <a href="#clients" class="mobile-menu__item">
                     <li>Наши клиенты</li>
@@ -74,6 +81,9 @@
                         <a href="#concrete" class="menu__item">
                             <li>Бетон</li>
                         </a>
+                        <a href="#price" class="menu__item">
+                            <li>Цены</li>
+                        </a>
                         <a href="#build" class="menu__item">
                             <li>Всё для строительства</li>
                         </a>
@@ -82,9 +92,6 @@
                         </a>
                         <a href="#material" class="menu__item">
                             <li>Инертные материалы</li>
-                        </a>
-                        <a href="#features" class="menu__item">
-                            <li>Почему мы</li>
                         </a>
                         <a href="#clients" class="menu__item">
                             <li>Наши клиенты</li>
@@ -131,7 +138,7 @@
                         </div>
                     </div>
                     
-                    <div class="price-block">
+                    <div id="price" class="price-block">
                         <h3 class="price__title">Прайс</h3>
                         <div class="price__wrap">
                             <ul class="price__list-title">
@@ -186,7 +193,7 @@
                             <h4 class="price__table-title">Раствор</h4>
                             <ul class="price__list">
                                 <li class="price__item">р-75</li>
-                                <li class="price__item">2800</li>
+                                <li class="price__item" style="margin-left: 10px">2800</li>
                                 <li class="price__item">3100</li>
                                 <li class="price__item">3500</li>
                             </ul>
@@ -251,7 +258,7 @@
                         </li>
                         <li class="services__item">
                             <img src="img/services/5.jpg" alt="Строительное оборудование" class="services__img">
-                            <p class="services__text">Строительное оборудование</p>
+                            <p class="services__text">Строительное оборудование и электроинструмент</p>
                         </li>
                         <li class="services__item">
                             <img src="img/services/6.jpg" alt="Металопрокат" class="services__img">
@@ -428,7 +435,7 @@
                 <h2 class="callback__title">У вас есть вопросы?</h2>
                 <p class="callback__text">Оставьте ваши контактные данные, и в ближайшее время
                         мы свяжемся с вами и ответим на все ваши вопросы.</p>
-                <form action="#" class="callback__form" id="callback">
+                <form action="#" class="callback__form" id="callback" onsubmit="ym(55168936, 'reachGoal', 'submit'); return true;">
                     <input name="username" type="text" class="callback__input" placeholder="Как вас зовут?" required>
                     <input name="tel" type="tel" class="callback__input phone" placeholder="Ваш номер телефона" required>
                     <button class="button callback__button">Получить консультацию</button>
@@ -451,7 +458,7 @@
                             <img src="img/features/1.png" alt="">
                         </div>
                         <div class="grey">
-                            <img src="img/bg-1.jpg" alt="">
+                            <img src="img/bg.jpg" alt="">
                         </div>
                     </div>
                     <div class="features__item">
@@ -463,7 +470,7 @@
                             <img src="img/features/2.png" alt="">
                         </div>
                         <div class="grey">
-                                <img src="img/bg-1.jpg" alt="">
+                                <img src="img/bg.jpg" alt="">
                             </div>
                     </div>
                     <div class="features__item">
@@ -475,7 +482,7 @@
                             <img src="img/features/3.png" alt="">
                         </div> 
                         <div class="grey">
-                                <img src="img/bg-1.jpg" alt="">
+                                <img src="img/bg.jpg" alt="">
                             </div>           
                     </div>
                     <div class="features__item">
@@ -488,7 +495,7 @@
                             <img src="img/features/4.png" alt="">
                         </div>
                         <div class="grey">
-                                <img src="img/bg-1.jpg" alt="">
+                                <img src="img/bg.jpg" alt="">
                             </div>
                         
                     </div>
@@ -630,7 +637,7 @@
             <p class="modal-dialog__title">Оставьте ваши контакты,
                 и в ближайшее время мы
                 свяжемся с вами и ответим на все ваши вопросы.</p>
-            <form action="#" class="modal-form" id="modal">
+            <form action="#" class="modal-form" id="modal" onsubmit="ym(55168936, 'reachGoal', 'submit'); return true;">
                 <input name="username" type="text" class="input modal-form__name" placeholder="Как вас зовут?" required>
                 <input name="tel" type="tel" class="input modal-form__tel phone" placeholder="Ваш номер телефона?" required>
                 <button class="button modal-form__button">Заказать звонок</button>
